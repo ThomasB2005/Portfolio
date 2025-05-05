@@ -1,0 +1,55 @@
+/* Reset de base */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Mise en page en flex pour coller le footer en bas */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2em;
+  }
+  
+  /* Header et Footer */
+  header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Projets */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 30%;
+    background: #f9f9f9;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .project {
+      width: 100%;
+    }
+  }
+  
