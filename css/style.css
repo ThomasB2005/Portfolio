@@ -79,5 +79,7 @@ body {
   
   /* Footer */
   footer {
-    font-size: 0.9em;
+    
+    padding: 20px;
+    text-align: center;
   }
