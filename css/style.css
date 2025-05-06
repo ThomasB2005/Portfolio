@@ -86,4 +86,6 @@ body {
     
     padding: 20px;
     text-align: center;
+    margin-top: auto; /* pousse le footer en bas */
+
   }
