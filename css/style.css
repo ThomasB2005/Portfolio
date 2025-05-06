@@ -90,18 +90,21 @@
 
   }*/
   /* Reset et base */
+/* Hauteur minimum de la page */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
+/* Base */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   color: #222;
-  display: flex;
-  flex-direction: column;
 }
 
 /* Header et Footer sombres */
@@ -134,7 +137,7 @@ nav a:hover {
 
 /* Sections principales */
 main {
-  flex: 1; /* permet à main de prendre toute la hauteur restante */
+  flex: 1; /* permet au main de prendre toute la hauteur restante */
   padding: 2em;
 }
 
@@ -173,4 +176,9 @@ h2 {
   .project {
     width: 100%;
   }
+}
+
+/* Footer */
+footer {
+  text-align: center;
 }
