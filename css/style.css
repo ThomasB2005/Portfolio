@@ -5,6 +5,9 @@ body {
     padding: 0;
     background-color: #ffffff;
     color: #222;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
   
   /* Header et Footer sombres */
@@ -37,6 +40,7 @@ body {
   
   /* Sections principales */
   main {
+    flex: 1;
     padding: 2em;
   }
   
