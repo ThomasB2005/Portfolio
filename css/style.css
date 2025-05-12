@@ -189,3 +189,14 @@ footer {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
+.bloc-texte {
+  background-color: white;
+  border-radius: 10px; /* Coins arrondis */
+  padding: 20px; /* Espacement intérieur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
+  max-width: 800px;
+  margin: 0 auto; /* Centrage horizontal */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
