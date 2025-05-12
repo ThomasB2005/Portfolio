@@ -1,4 +1,12 @@
 <footer>
-    &copy; 2025 Mon Nom
-  </footer>
-  
+    <section id="contact">
+      <h4>Contact</h4>
+      
+      <p>mail : <a href="mailto:bustamante.t2005@gmail.com">bustamante.t2005@gmail.com</a></p>
+    </section>
+    &copy; <span id="currentYear"></span> Thomas Bustamante
+</footer>
+<script>
+  // Récupère l'année en cours et l'insère dans l'élément avec l'id "currentYear"
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
