@@ -1,0 +1,49 @@
+
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  <div include-html="../include/head.html"></div>
+  <!--<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #333; color: white; padding: 1em; text-align: center; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+    section { padding: 2em; }
+    .projects { display: flex; flex-wrap: wrap; gap: 1em; }
+    .project { border: 1px solid #ccc; padding: 1em; width: 30%; background: #f9f9f9; }
+  </style>-->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div include-html="../include/header.html"></div>
+
+
+  <main>
+    <h2 style="text-align-last: center;">Développement</h2>
+    <div class="bloc-texte" style="text-align: center;">
+    <h2 style="text-align-last: center;">Web language</h2>
+      <li><img src="../img/php-logo.png" alt="php-logo"></li>
+      <li><img src="../img/html-logo.png" alt="html-logo"></li>
+      <li><img src="../img/JavaScript-logo.png" alt="JavaScript-logo"></li>
+      <li><img src="../img/css-logo.png" alt="css-logo"></li>
+
+    </div>
+    <h2 style="text-align-last: center;">Situations d'apprentissage et d'évaluation (SAE)</h2>
+        <p class=precision-experience style="text-align-last: center;">Situations d'apprentissage et d'évaluation sont des projets réalisés majoritairement en groupes qui permettent de mettre en pratique les compétences acquises pendant la formation.</p>
+    <div class="bloc-texte" style="text-align: center;">
+        <h2 style="text-align-last: center;">Développement d'un ERP en ligne</h2>
+      <p>En deuxième année, en groupe, j'ai pu approfondir mes compétences en développement web et en conception de base de données au travers du développement d'un ERP (Enterprise resource planning) permettant la gestion de fiches de paie et de congés des employés d'une entreprise. Ce site incluait par exemple une gestion des permissions et un système de connexion.
+Il a fallu aussi s'occuper de la gestion des données, de la conception à la réalisation de la base. J'ai principalement participé à cette partie avec la programmation d'un script python pour générer les données importantes afin de fournir un jeu de test ou encore via son implémentation en ligne et par la suite à sa connexion.</p>
+    </div>
+    
+  </main>
+
+  <div include-html="../include/footer.html"></div>
+  <!-- Script d’inclusion dynamique -->
+  <script src="../js/include-html.js"></script>
+  <script>
+    includeHTML(); // exécute l’inclusion
+  </script>
+
+</body>
+</html>
