@@ -200,6 +200,15 @@ footer {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+.bloc-texte-inv {
+  background-color: white;
+  border-radius: 10px; /* Coins arrondis */
+  padding: 20px; /* Espacement intérieur */
+  max-width: 800px;
+  margin: 0 auto; /* Centrage horizontal */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
 
 .precision-experience {
     font-size: 15px;
