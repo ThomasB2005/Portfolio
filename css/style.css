@@ -200,3 +200,26 @@ footer {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+
+.precision-experience {
+    font-size: 15px;
+    color: gray;
+    opacity: 0.8;
+    width: 75%;
+    text-align: center;
+}
+
+.logos {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border: solid 1px lightgray;
+    border-radius: 10%;
+    padding: 5px;
+    object-fit: contain;
+    transition: all 0.2sease;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
