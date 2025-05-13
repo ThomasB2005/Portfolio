@@ -206,7 +206,7 @@ footer {
     color: gray;
     opacity: 0.8;
     width: 75%;
-    text-align: center;
+    text-align-last: center;
 }
 /*
 .logos {
