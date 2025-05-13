@@ -216,7 +216,11 @@ footer {
     opacity: 0.8;
     width: 75%;
     
-}
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
 /*
 .logos {
     width: 60px;
